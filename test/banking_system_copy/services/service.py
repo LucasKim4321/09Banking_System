@@ -1,5 +1,8 @@
-from models.user import User           # models/user.py에서 User 클래스 임포트
-from utils.exceptions import *      # utils/exceptions.py의 모든 예외 임포트
+# from models.user import User           # models/user.py에서 User 클래스 임포트
+# from utils.exceptions import *      # utils/exceptions.py의 모든 예외 임포트
+
+from ..models.user import User           # models/user.py에서 User 클래스 임포트
+from ..utils.exceptions import *      # utils/exceptions.py의 모든 예외 임포트
 
 class BankingService:
     def __init__(self) -> None:

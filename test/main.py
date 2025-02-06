@@ -1,5 +1,5 @@
-from models.user import User
-from services.service import BankingService
+from banking_system_copy.models.user import User
+from banking_system_copy.services.service import BankingService
 
 def main() -> None:
     banking_service = BankingService()
